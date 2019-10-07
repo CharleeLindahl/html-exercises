@@ -1,40 +1,50 @@
 /* solitare.css */
-body {
-    background-image: url("images/gradient.jpg");
-    background-repeat: no-repeat;
-}
-
-.greentexture {
-    width: 150px;
-    height: 150px;
-    background-image: url("images/felt2");
+.felt {
+    background-image: url("../images/felt.jpg");
+    width: 400px;
+    height: 400px;
     position: relative;
-}
-
-.playingcard1 {
-    position: absolute;
-    top: 10px;
-    left: 50px;
-    z-index: 5;
-}
-
-.playingcard2 {
-    position: absolute;
     top: 20px;
-    left: 50px;
-    z-index: 10;
+    left: 20px;
 }
 
-.playingcard3 {
+.gradient {
+    background-image: url("../images/gradient.jpg");
+    width: 800px;
+    height: 600px;
+    background-repeat: repeat-x;
+}
+
+.card {
     position: absolute;
     top: 30px;
-    left: 50px;
-    z-index: 15;
+    left: 168px;
 }
 
-.playingcard4 {
+.kingspades {
     position: absolute;
-    top: 40px;
-    left: 50px;
-    z-index: 20;
+    top: 50px;
+    left: 168px;
+    z-index: 1;
+}
+
+.queenhearts {
+    position: absolute;
+    top: 80px;
+    left: 168px;
+    z-index: 2;
+}
+
+.jackclubs {
+    position: absolute;
+    top: 110px;
+    left: 168px;
+    z-index: 3;
+}
+
+.tendiamonds {
+    position: absolute;
+    top: 140px;
+    left: 168px;
+    z-index: 4;
 }
