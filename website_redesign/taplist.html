@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tap List</title>
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /*html {*/
+        /*    scroll-behavior: smooth;*/
+        /*}*/
+
+        body {
+            background-color: white;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: auto;
+            background-color: white;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        nav {
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            color: white;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        p#nav-home, #nav-menus, #nav-events, #nav-contact, #nav-about {
+            display: inline;
+            font-size: 36px;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-weight: bold;
+            padding: 0 25px;
+            line-height: 100px;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: forestgreen;
+            cursor: pointer;
+        }
+
+        a:active {
+            text-decoration: none;
+            color: cadetblue;
+        }
+
+        h1 {
+            width: 100%;
+            height: 120px;
+            background-color: black;
+            color: white;
+            margin: 0 auto;
+            text-align: center;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-size: 80px;
+            padding-top: 15px;
+            text-shadow: darkgreen 2px 2px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        h2 {
+            color: black;
+            text-align: center;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-size: 36px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        h3 {
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 18px;
+            display: inline;
+        }
+
+        h5 {
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 14px;
+        }
+
+        p {
+            width: 500px;
+        }
+
+        table {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .sour {
+            padding-left: 15px;
+        }
+
+        .grainbelt {
+            padding-left: 5px;
+        }
+
+        .guinness {
+            padding-right: 15px;
+        }
+
+        .oktoberfest {
+            padding-left: 15px;
+        }
+
+        .smithwicks {
+            padding-left: 5px;
+        }
+
+        .furious {
+            padding-left: 15px;
+        }
+
+        .slugfest {
+            padding-left: 10px;
+        }
+
+        .temple {
+            padding-left: 15px;
+            padding-bottom: 5px;
+        }
+
+        .axe {
+            padding-bottom: 5px;
+        }
+
+        .oat {
+            padding-right: 25px;
+        }
+
+        .axeman {
+            padding-bottom: 40px;
+        }
+
+        .warpigs {
+            padding-left: 25px;
+            padding-bottom: 15px;
+        }
+
+        .taplist {
+            margin: 0 auto;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 14px;
+            /*display: inline;*/
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 50px;
+            align-content: space-evenly;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: left;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 14px;
+            padding-left: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Keegan's <img alt="Logo" src="keegans_logo.png" style="float:left;width:78.21px;height:100px;">
+    <a href="https://facebook.com/keeganspub"> <img alt="Facebook" src="facebook_icon_blue.png"  style="float:right;width:27px;height:27px;"></a>
+    <a href="https://instagram.com/keeganspub"> <img alt="Instagram" src="instagram_icon.png" style="float:right;width:25px;height:25px;"></a>
+    <a href="https://twitter.com/keeganspub"> <img alt="Twitter" src="twitter_icon_blue.png" style="float:right;width:27px;height:27px;"></a>
+</h1>
+
+<div class="wrapper">
+    <div id="top"></div>
+    <nav>
+        <a href="homepage.html"><p id="nav-home">home</p></a>
+        <a href="menus.html"><p id="nav-menus">menus</p></a>
+        <a href="events.html"><p id="nav-events">events</p></a>
+        <a href="contact.html"><p id="nav-contact">contact</p></a>
+        <a href="about.html"><p id="nav-about">about</p></a>
+
+    </nav>
+
+    <h2>tap list</h2>
+
+    <!--TAP LIST-->
+    <!--    <div class="taplist">-->
+    <table class="taplist">
+        <tr>
+            <td>
+                <img class="finnegans" alt="irish ale" src="finnegans_irishale.png" height="89px">
+            </td>
+            <td>
+                <h3>Finnegan's Irish Ale (ABV 4.8%)</h3>
+                <p>Finnegans Irish Ale is brewed using three varieties of imported 2 row malts & hops creating a medium-bodied ale with a creamy, malty finish and clean aftertaste. All profits from the Finnegans Irish Ale goes to provide fresh, local produce to those in need.</p>
+            </td>
+            <td>
+                <img class="goose" src="gooseisland_paperumbrella.png" alt="gooseisland" width="44px">
+            </td>
+            <td>
+                <h3>Goose Island Paper Umbrella (ABV 4.5%)</h3>
+                <p>Tropical vacation long overdue? We’re right there with ya. Save your P.T.O. because you’ve got paradise in a can. Pop open a Paper Umbrella and surround yourself with the refreshing and tropical hop character. Cheers!</p>
+            </td>
+            <!--New Row-->
+        <tr>
+            <td>
+                <img class="guinness" src="guinness.png" alt="guinness" height="96px">
+            </td>
+            <td>
+                <h3>Guinness (ABV 4.2%)</h3>
+                <p>Quite possibly the most famous stout in the world, Guinness is produced by the Guinness brewery in Dublin, Ireland, and other locations in Ireland. It is a very dark stout beer that has a notable "cascade" effect below the head when it is poured, due to the nitrogen content of the liquid. This also produces a notably smooth head, because nitrogen bubbles are smaller than carbon dioxide bubbles.</p>
+            </td>
+            <td>
+                <img class="images" src="hamms.png" alt="hamms" width="54px">
+            </td>
+            <td>
+                <h3>Hamm's (ABV 4.7%)</h3>
+                <p>The old reliable Hamm's. Nothing much like it on the market, and hardly a better price for it: $3/pint.</p>
+            </td>
+            <!--New Row-->
+        <tr>
+            <td>
+                <img class="harp" src="harp.png" alt="harps" height="121px">
+            </td>
+            <td>
+                <h3>Harp (ABV 5%)</h3>
+                <p>This classic Irish lager has a pleasant, buttery sweet aroma. Crisp and dry, Harp finishes remarkably smooth. Harp's distinctive, refreshing taste has earned it six gold medals in the famous annual Monde Selection beer tasting competition. It is Northern Ireland's number one lager.</p>
+            </td>
+            <td>
+                <img class="insight" src="old_one_eye.png" alt="insight" width="47px">
+            </td>
+            <td>
+                <h3>Insight The Wisdom of Old One-Eye (ABV 5.6%)</h3>
+                <p>Old One-Eye is a unique breed of Blonde Ale birthed from the loins of the Norwegian yeast, Hornindal Kveik, and fermented at high temperatures to create a smooth, easy-drinking beast. An ode to Odin, who traded an eye for wisdom, this brew pairs well with almost anything.</p>
+            </td>
+            <!--New Row-->
+        <tr>
+            <td>
+                <img class="images" src="lagunitas_pils.png" alt="lagunitas" height="125px">
+            </td>
+            <td>
+                <h3>Lagunitas Pils (ABV 6.0%)</h3>
+                <p>Like Adam and Eve, Isaac and Ishmael, Mao and Confucious, Good and Evil, Day and Night, Hitites and Visigoths, John and Lorena, or Groucho and Moe, Ales and Lagers are as different as can be. Still, we must love each for who they are, separately but equally, with liberty and justice for all. Cheers!</p>
+            </td>
+            <td>
+                <img class="oat" src="oatmeal_stout.png" alt="oatmealstout" width="62px">
+            </td>
+            <td>
+                <h3>Oatmeal Stout Nitro (ABV 5.2%)</h3>
+                <p>While its cascading rich black color will be familiar to Stout enthusiasts, ours is decidedly different. It's made with naked oats from the UK, for one. Smooth and slightly sweet, with hints of coffee, caramel and chocolate.</p>
+            </td>
+            <!--New Row-->
+        <tr>
+            <td>
+                <img class="grainbelt" src="grainbelt_premium.png" alt="grainbelt" height="133px">
+            </td>
+            <td>
+                <h3>Grainbelt Premium (ABV 4.6%)</h3>
+                <p>Light to medium straw color. Light malt flavor and detectable sweetness. Unique Premium hop aroma and flavor with a low hop bitterness. It’s Premo. Need we say more?</p>
+            </td>
+            <td>
+                <img class="sour" src="sour_wench.png" alt="sourwench" height="124px">
+            </td>
+            <td>
+                <h3>Raspberry Sour Wench (ABV 7.0%)</h3>
+                <p>Our Sour Wench Blackberry Ale is a fruity Berliner Weisse-style beer bursting with Oregon blackberry flavor and aroma. The fruit addition adds a beautiful violet hue, and the taste has an approachable soft tartness from kettle souring. This artful gypsy will surely lure you into the world of sour beers.</p>
+            </td>
+            <!--New Row-->
+        <tr>
+            <td>
+                <img class="smithwicks" src="smithwicks_redale.png" alt="smithwicks" height="141px">
+            </td>
+            <td>
+                <h3>Smithwicks (ABV 5.0%)</h3>
+                <p>From Ireland, comes this clean, refreshing ale that balances hops and roasted barley for a flavor that mixes a slightly sweet malt with moderate bitterness. Famous amber color comes from the specially roasted barley. Smithwick's is Ireland's number one ale. Its exceptional taste, distinctive color and purity of ingredients make it unique. Its rich, satisfying taste has earned it five gold medals in the famous Monde Selection Beer Tasting Competition.</p>
+            </td>
+            <td>
+                <img class="oktoberfest" src="oktoberfest.png" alt="oktoberfest" height="118px">
+            </td>
+            <td>
+                <h3>Schell’s Oktoberfest (ABV 5.5%)</h3>
+                <p>With its bright copper-orange color, it is quite symbolic of the autumnal shift of the season. A slightly higher strength, and warm malt body make it the perfect companion for the crisp fall weather in Minnesota. The use of Munich and Vienna malts give the beer its toasty malt backbone, and melanoidin-rich flavor and aroma. It has a soft malt sweetness, pleasant mouthfeel and a slight spiciness. Hop character is subdued, as the malt takes center stage with this beer.</p>
+            </td>
+            <!--New Row-->
+        <tr>
+            <td>
+                <img class="cider" src="sociable_cider.png" alt="cider" height="105px">
+            </td>
+            <td>
+                <h3>Socialable Rusty Chain (ABV 6.6%)</h3>
+                <p>Rusty Chain links together a blend the Midwest’s finest freshly pressed apples with ripe cranberries. The result is a bright rose color, light body and brilliant berry flavor that balances tart acidity with gentle residual sweetness.</p>
+            </td>
+            <td>
+                <img class="slugfest" src="summit_slugfest.png"alt="slugfest" height="98px">
+            </td>
+            <td>
+                <h3>Summit Slugfest (ABV 4.7%)</h3>
+                <p>Summit Slugfest is an unfiltered IPA with an orange appearance, low in alcohol and bitterness but big in citrus hop flavors and aromas. Seeking to connect new American IPA trends with our classical European approach to brewing, Slugfest offers aggressive and powerful citrus hop flavors and aromas of tangerine, melon and lemon, thanks to hop varieties Huell Melon, Azacca and Mandarina Bavaria. Malt notes of toast, English biscuits and breadcrust provide this session-style ale with balanced drinkability.</p>
+            </td>
+            <!--New Row-->
+        <tr>
+            <td>
+                <img class="dh" src="surly_3dh.png" alt="3dh" height="105px">
+            </td>
+            <td>
+                <h3>Surly 3DH (ABV 10%)</h3>
+                <p>Cloaked amid the brewhouse shadows, rites and rituals conjure impossible hop flavor. Over the low rumble of equipment, whispers of a triple dry-hopped beer arise. New and unknowable, 3DH is your initiation.</p>
+            </td>
+            <td>
+                <img class="furious" src="surly_furious.png" alt="furious" height="111px">
+            </td>
+            <td>
+                <h3>Surly Furious (ABV 6.2%)</h3>
+                <p>Brewed with a dazzling blend of American hops and Scottish malt, this crimson-hued ale delivers waves of citrus, pine and caramel-toffee. For those who favor flavor, Furious has the hop-fire your taste buds have been screeching for.</p>
+            </td>
+            <!--New Row-->
+        <tr>
+            <td>
+                <img class="hell" src="surly_helllager.png" alt="hell" height="111px">
+            </td>
+            <td>
+                <h3>Surly Hell Lager (ABV 5.0%)</h3>
+                <p>Hell is a pale-gold lager not unlike the zwickelbiers popular in Dorit’s hometown of Bremen. It’s not filtered and it’s brewed with lager yeast. You can expect bready malt aromas and flavors, floral hops, and a balanced finish.</p>
+            </td>
+            <td>
+                <img class="temple" src="surly_temple.png" alt="temple" height="107px">
+            </td>
+            <td>
+                <h3>Surly Temple (ABV 9.0%)</h3>
+                <p class="surtemp"> Every great temple started from a simple foundation and rose from there. This beer’s foundation is an imperial kettle sour, embellished with pomegranate, peach, vanilla bean, and mango, then back-sweetened with a touch of lactose for a complex sweet, tart, and fruit-forward take on a complex and beautiful construct.</p>
+            </td>
+            <!--New Row-->
+        <tr>
+            <td>
+                <img class="axe" src="surly_toddtheaxeman.png" alt="axeman" height="106px">
+            </td>
+            <td>
+                <h3>Surly Todd the Axe Man (ABV 7.2%)</h3>
+                <p class="axeman"> Every great temple started from a simple foundation and rose from there. This beer’s foundation is an imperial kettle sour, embellished with pomegranate, peach, vanilla bean, and mango, then back-sweetened with a touch of lactose for a complex sweet, tart, and fruit-forward take on a complex and beautiful construct.</p>
+            </td>
+            <td>
+                <img class="warpigs" src="warpigs_salmonpants.png" alt="salmon" height="145px">
+            </td>
+            <td>
+                <h3>Warpigs Salmon Pants (ABV 5.3%)</h3>
+                <p class="warp"> Grainy malt aromas mixed with floral citrus and melon notes. A light body and dry finish.</p>
+            </td>
+        </tr>
+
+    </table>
+    <!--    </div>-->
+
+</div><!--End of wrapper-->
+
+
+<div class="footer">
+    <h5>M-F 11:00 AM - 2:00 AM, Sat-Sun 9:00 AM - 2:00 AM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img alt="phone icon" height="14px" src="phone_icon_white.png" width="14px">
+        (612)-252-0880 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img alt="location icon" height="19px" src="location_icon_white.png" width="19px">
+        16 University Ave NE  Minneapolis, MN 55413</h5>
+</div>
+
+</body>
+</html>

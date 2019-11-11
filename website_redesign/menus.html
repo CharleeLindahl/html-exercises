@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menus</title>
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /*html {*/
+        /*    scroll-behavior: smooth;*/
+        /*}*/
+
+        body {
+            background-color: white;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: auto;
+            background-color: white;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        nav {
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            color: white;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        p#nav-home, #nav-menus, #nav-events, #nav-contact, #nav-about {
+            display: inline;
+            font-size: 36px;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-weight: bold;
+            padding: 0 25px;
+            line-height: 100px;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: forestgreen;
+            cursor: pointer;
+        }
+
+        a:active {
+            text-decoration: none;
+            color: forestgreen;
+        }
+
+        h1 {
+            width: 100%;
+            height: 120px;
+            background-color: black;
+            color: white;
+            margin: 0 auto;
+            text-align: center;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-size: 80px;
+            padding-top: 15px;
+            text-shadow: darkgreen 2px 2px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        h2 {
+            color: black;
+            text-align: center;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-size: 36px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .container {
+            margin: 0 auto;
+            position: relative;
+            width: 50%;
+            padding-bottom: 25px;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+        }
+
+        .container:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+            background-color: black;
+            font-family: "Bodoni 72 Smallcaps",sans-serif;
+            color: white;
+            font-size: 24px;
+            padding: 16px 32px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: left;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 14px;
+            padding-left: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Keegan's <img src="keegans_logo.png" alt="Logo" style="float:left;width:78.21px;height:100px;">
+    <a href="https://facebook.com/keeganspub"> <img src="facebook_icon_blue.png" alt="Facebook"  style="float:right;width:27px;height:27px;"></a>
+    <a href="https://instagram.com/keeganspub"> <img src="instagram_icon.png" alt="Instagram" style="float:right;width:25px;height:25px;"></a>
+    <a href="https://twitter.com/keeganspub"> <img src="twitter_icon_blue.png" alt="Twitter" style="float:right;width:27px;height:27px;"></a>
+</h1>
+
+<div class="wrapper">
+    <div id="top"></div>
+    <nav>
+        <a href="homepage.html"><p id="nav-home">home</p></a>
+        <a href="menus.html"><p id="nav-menus">menus</p></a>
+        <a href="events.html"><p id="nav-events">events</p></a>
+        <a href="contact.html"><p id="nav-contact">contact</p></a>
+        <a href="about.html"><p id="nav-about">about</p></a>
+
+    </nav>
+
+</div><!--End of wrapper-->
+
+<h2>menus</h2>
+
+<div class="container" align="center">
+    <p>&nbsp;</p>
+    <a href="food_menu.html"> <img src="chicken_pesto_panini.jpg" alt="food" width="400"/></a>
+    <div class="middle">
+        <div class="text">food menu</div>
+    </div>
+</div>
+
+<div class="container" align="center">
+    <p>&nbsp;</p>
+    <a href="taplist.html"> <img src="beers.jpg" alt="beer" width="600"/></a>
+    <div class="middle">
+        <div class="text">tap list</div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>M-F 11:00 AM - 2:00 AM, Sat-Sun 9:00 AM - 2:00 AM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img src="phone_icon_white.png" width="14px" height="14px" alt="phone icon">
+        (612)-252-0880 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img src="location_icon_white.png" width="19px" height="19px" alt="location icon">
+        16 University Ave NE  Minneapolis, MN 55413</p>
+</div>
+
+</body>
+</html>

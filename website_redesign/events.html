@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /*html {*/
+        /*    scroll-behavior: smooth;*/
+        /*}*/
+
+        body {
+            background-color: white;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: auto;
+            background-color: white;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        nav {
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            color: white;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        p#nav-home, #nav-menus, #nav-events, #nav-contact, #nav-about {
+            display: inline;
+            font-size: 36px;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-weight: bold;
+            padding: 0 25px;
+            line-height: 100px;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: forestgreen;
+            cursor: pointer;
+        }
+
+        a:active {
+            text-decoration: none;
+            color: cadetblue;
+        }
+
+        h1 {
+            width: 100%;
+            height: 120px;
+            background-color: black;
+            color: white;
+            margin: 0 auto;
+            text-align: center;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-size: 80px;
+            padding-top: 15px;
+            text-shadow: darkgreen 2px 2px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        h2 {
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-size: 36px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        h3 {
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-size: 36px;
+            padding-bottom: 10px;
+            text-align: inherit;
+        }
+
+        table {
+            margin: 0 auto;
+            height: 900px;
+        }
+
+        td {
+            width: 200px;
+            vertical-align: top;
+            margin: 0 auto;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 18px;
+            /*padding-bottom: 50px;*/
+            padding-left: 10px;
+            background-color: rgba(34, 139, 34, 0.51);
+        }
+
+        .shamrock {
+            padding-left: 50px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: left;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 14px;
+            padding-left: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Keegan's <img src="keegans_logo.png" alt="Logo" style="float:left;width:78.21px;height:100px;">
+    <a href="https://facebook.com/keeganspub"> <img src="facebook_icon_blue.png" alt="Facebook"  style="float:right;width:27px;height:27px;"></a>
+    <a href="https://instagram.com/keeganspub"> <img src="instagram_icon.png" alt="Instagram" style="float:right;width:25px;height:25px;"></a>
+    <a href="https://twitter.com/keeganspub"> <img src="twitter_icon_blue.png" alt="Twitter" style="float:right;width:27px;height:27px;"></a>
+</h1>
+
+<div class="wrapper">
+    <div id="top"></div>
+    <nav>
+        <a href="homepage.html"><p id="nav-home">home</p></a>
+        <a href="menus.html"><p id="nav-menus">menus</p></a>
+        <a href="events.html"><p id="nav-events">events</p></a>
+        <a href="contact.html"><p id="nav-contact">contact</p></a>
+        <a href="about.html"><p id="nav-about">about</p></a>
+
+    </nav>
+
+</div><!--End of wrapper-->
+
+<h2>weekly events</h2>
+
+<!--EVENTS-->
+<!--TAP LIST-->
+<div class="events">
+    <table class="events">
+        <tr>
+            <td>
+                <h3>sunday</h3>
+                <p>Breakfast <br>
+                    9 AM - 2 PM <br> <br>
+                    Traditional Music Workshop <br>
+                    4 PM - 6 PM <br>
+                    Beginners Irish Music Sesiun <br> <br>
+                    Advanced Irish Sesiun Music <br>
+                    6 PM - 10 PM <br> <br>
+                    Late Night Happy Hour <br>
+                    11 PM - 1 AM <br>
+                    $2 off all taps, rail drinks and house wine.<br><br>
+                    <img class="shamrock" src="shamrock.png" alt="shamrock" height="73px"></p>
+            </td>
+            <td>
+                <h3>monday</h3>
+                <p>Irish Pints and Pies <br>
+                    11 AM - 2 AM <br> <br>
+                    $5 Guinness, Harp, and Smithwicks. <br> <br>
+                    Half-price Shepherd's Pie, Steak & Guinness Pie, and Chicken Pot Pie. <br> <br>
+                    Free Birthday Week Dinner! <br>
+                    11 AM - 11 PM <br>
+                    Receive a FREE MEAL on Monday of your birthday week with a purchase of another meal of equal or greater value.<br><br>
+                    <img class="shamrock" src="shamrock.png" alt="shamrock" height="73px"></p>
+            </td>
+            <td>
+                <h3>tuesday</h3>
+                <p>Happy Hour 4:30 PM - 6:30 PM <br>
+                    $2 off all taps, apps, rail drinks and house wine.<br> <br>
+                    Summit Extravaganza! <br>
+                    7 PM - 10 PM<br>
+                    All Summit taps are $3!<br> <br>
+                    Trivia Mafia <br>
+                    7:30 PM - 9:30 PM <br>
+                    1st Place will receive 25% off the Teams Tab <br> <br>
+                    1st place 25% off tab, free Summit*
+                    2nd place 10% off tab, free Summit*
+                    3rd place free Summit* <br>
+                    * One free pint of tap Summit for each player on team<br> <br>
+                    Late Night Happy Hour <br>
+                    11 PM - 1 AM <br>
+                    $2 off all taps, rail drinks, and house wine.<br><br>
+                    <img class="shamrock" src="shamrock.png" alt="shamrock" height="73px"></p>
+            </td>
+            <td>
+                <h3>wednesday</h3>
+                <p>Half-price Burgers! <br>
+                    11 AM - 2 AM <br>
+                    Hamburgers are half-price all day with the purchase of a beverage (dine-in only). <br> <br>
+                    Happy Hour <br>
+                    4:30 PM - 6:30 PM <br>
+                    $2 off all taps, apps, rail drinks and house wine. <br> <br>
+                    $1 Grain Belt Taps! <br>
+                    5 PM - 6 PM <br> <br>
+                    Late Night Happy Hour <br>
+                    11 PM - 1 AM <br>
+                    $2 off all taps, rail drinks and house wine.<br><br>
+                    <img class="shamrock" src="shamrock.png" alt="shamrock" height="73px"></p>
+            </td>
+            <td>
+                <h3>thursday</h3>
+                <p>Happy Hour <br>
+                    4:30 PM - 6:30 PM <br>
+                    $2 off all taps, apps, rail drinks and house wine. <br> <br>
+                    Trivia Mafia <br>
+                    7 PM - 9:30 PM <br>
+                    1st Place will receive 25% off the Teams Tab <br>
+                    1st place 25% off tab, free Surly*
+                    2nd place 10% off tab, free Sury*
+                    3rd place free Surly* <br>
+                    * One free pint of tap Surly for each player on team <br><br>
+                    Surly Special <br>
+                    7 PM - 10 PM <br>
+                    Surly Furious $3 <br><br>
+                    Late Night Happy Hour <br>
+                    11 PM - 1 AM <br>
+                    $2 off all taps, rail drinks and house wine.<br><br>
+                    <img class="shamrock" src="shamrock.png" alt="shamrock" height="73px"></p>
+            </td>
+            <td>
+                <h3>friday</h3>
+                <p>Happy Hour <br>
+                    4:30 PM - 6:30 PM <br>
+                    $2 off all taps, apps, rail drinks and house wine. <br><br>
+                    Half-Price Fish-n-Chips <br>
+                    5 PM - 10 PM <br><br>
+                    $5 Guinness <br><br>
+                    Summit EPA and Saga $3 <br>
+                    9 PM - 2 AM <br>
+                    All Summit taps are $3 from 9pm til close and 1/4 slices of Reds' Savoy Pizza are $5! Perfect for a night on a budget. <br><br>
+                <img class="shamrock" src="shamrock.png" alt="shamrock" height="73px"></p>
+            </td>
+            <td>
+                <h3>saturday</h3>
+                <p>Breakfast <br>
+                    9 AM - 2 PM<br><br>
+                    Trivia with Miss Kate!<br>
+                    12 AM - 2 PM<br>
+                    1st Place will receive 25% off the Teams Tab<br><br>
+                    1st place 25% off tab, free Finnegans*<br>
+                    2nd place 10% off tab, free Finnegans*<br>
+                    3rd place free Finnegans*<br>
+                    * One free pint of tap Finnegans for each player on team<br><br>
+                    $3 Finnegans<br>
+                    $4 Bloodys<br>
+                    $4 Mimosas<br>
+                    & Breakfast served until 2pm!<br><br>
+                    Summit EPA and Saga $3<br>
+                    9 PM - 2 AM<br>
+                    All Summit taps are $3 from 9pm til close and 1/4 slices of Reds' Savoy Pizza are $5! Perfect for a night on a budget.<br><br>
+                    <img class="shamrock" src="shamrock.png" alt="shamrock" height="73px"></p>
+            </td>
+
+        </tr>
+    </table>
+</div>
+
+<div class="footer">
+    <p>M-F 11:00 AM - 2:00 AM, Sat-Sun 9:00 AM - 2:00 AM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img src="phone_icon_white.png" width="14px" height="14px" alt="phone icon">
+        (612)-252-0880 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img src="location_icon_white.png" width="19px" height="19px" alt="location icon">
+        16 University Ave NE  Minneapolis, MN 55413</p>
+</div>
+
+</body>
+</html>

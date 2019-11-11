@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Menu</title>
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /*html {*/
+        /*    scroll-behavior: smooth;*/
+        /*}*/
+
+        body {
+            background-color: white;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: auto;
+            background-color: white;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        nav {
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            color: white;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        p#nav-home, #nav-menus, #nav-events, #nav-contact, #nav-about {
+            display: inline;
+            font-size: 36px;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-weight: bold;
+            padding: 0 25px;
+            line-height: 100px;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: forestgreen;
+            cursor: pointer;
+        }
+
+        a:active {
+            text-decoration: none;
+            color: cadetblue;
+        }
+
+        h1 {
+            width: 100%;
+            height: 120px;
+            background-color: black;
+            color: white;
+            margin: 0 auto;
+            text-align: center;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-size: 80px;
+            padding-top: 15px;
+            text-shadow: darkgreen 2px 2px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        h2 {
+            color: black;
+            text-align: center;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-size: 36px;
+            padding-top: 20px;
+        }
+
+        h3 {
+            color: black;
+            text-align: center;
+            font-family: "Bodoni 72 Smallcaps", sans-serif;
+            font-size: 28px;
+            padding-top: 20px;
+        }
+
+        h4 {
+            color: black;
+            text-align: center;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 18px;
+            padding-top: 10px;
+        }
+
+        .appetizers {
+            color: black;
+            text-align: center;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 18px;
+            padding-top: 3px;
+            padding-bottom: 20px;
+        }
+
+        .soups {
+            color: black;
+            text-align: center;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 18px;
+            padding-top: 3px;
+            padding-bottom: 20px;
+        }
+
+        .favorites {
+            color: black;
+            text-align: center;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 18px;
+            padding-top: 3px;
+            padding-bottom: 20px;
+        }
+
+        .specialties {
+            color: black;
+            text-align: center;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 18px;
+            padding-top: 3px;
+            padding-bottom: 20px;
+        }
+
+        .breakfast {
+            color: black;
+            text-align: center;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 18px;
+            padding-top: 3px;
+            padding-bottom: 20px;
+        }
+
+        .dessert {
+            color: black;
+            text-align: center;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 18px;
+            padding-top: 3px;
+            padding-bottom: 20px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: left;
+            font-family: "Bodoni 72", sans-serif;
+            font-size: 14px;
+            padding-left: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Keegan's <img src="keegans_logo.png" alt="Logo" style="float:left;width:78.21px;height:100px;">
+    <a href="https://facebook.com/keeganspub"> <img src="facebook_icon_blue.png" alt="Facebook"  style="float:right;width:27px;height:27px;"></a>
+    <a href="https://instagram.com/keeganspub"> <img src="instagram_icon.png" alt="Instagram" style="float:right;width:25px;height:25px;"></a>
+    <a href="https://twitter.com/keeganspub"> <img src="twitter_icon_blue.png" alt="Twitter" style="float:right;width:27px;height:27px;"></a>
+</h1>
+
+<div class="wrapper">
+    <div id="top"></div>
+    <nav>
+        <a href="homepage.html"><p id="nav-home">home</p></a>
+        <a href="menus.html"><p id="nav-menus">menus</p></a>
+        <a href="events.html"><p id="nav-events">events</p></a>
+        <a href="contact.html"><p id="nav-contact">contact</p></a>
+        <a href="about.html"><p id="nav-about">about</p></a>
+    </nav>
+
+</div><!--End of wrapper-->
+
+<h2>food menu</h2>
+
+<h3>appetizers</h3>
+
+<div class="appetizers">
+    <h4>Cheese Pints</h4>
+    <p>Beer-battered cheddar cheese baked and served with marinara. $9.99</p>
+    <h4>Fish Bites</h4>
+    <p>Bite-sized pieces of our beer-battered Pollock served with red pepper aioli sauce. $10.99</p>
+    <h4>Chicken Tenders</h4>
+    <p>Three generous-sized, battered, deep-fried chicken fingers served with chips and tasty barbecue sauce or ranch dressing. $9.99</p>
+    <h4>Chicken Wings</h4>
+    <p>Choice of Caribbean, Korean, Original Buffalo or caramelized honey balsamic vinegar sauce. Served with crisp celery and choice of dressing. $11.99</p>
+    <p>&nbsp;</p>
+    <img src="chickenwings.jpg" width="300px" align="center">
+    <p>&nbsp;</p>
+    <h4>Jumbo Pretzel</h4>
+    <p>Two large oven-baked pretzel served with spicy mustard. $7.99 <br> Add nacho cheese: $1.50</p>
+    <h4>Irish Poutine</h4>
+    <p>Crispy wedge fries covered with cheese curds, corned beef and smothered with gravy. $12.99</p>
+    <p>&nbsp;</p>
+    <img src="poutine.JPG" width="300px" align="center">
+    <p>&nbsp;</p>
+    <h4>Artichoke and Spinach Dip</h4>
+    <p>Tasty combination of artichoke, spinach and cheese, baked and served with freshly toasted crispy corn chips. $9.99</p>
+    <h4>Vegetable Spring Rolls</h4>
+    <p>Traditional spring rolls baked to a crispy crunch and served with sweet & sour sauce. $8.49</p>
+    <h4>Crisps</h4>
+    <p>House-made potato chips served with Killarney sauce $5.99</p>
+    <h4>Caprese</h4>
+    <p>Olive oil and balsamic vinegar served with Roma tomatoes, baby mozzarella and fresh basil. Served with fresh crostinis. $9.99</p>
+    <h4>St. Brigid's Irish Chips</h4>
+    <p>Wedge fries topped with tomatoes, spring onions, bacon and melted co-jack cheese. Served with Keegan’s exclusive Killarney sauce. Serves two. $11.99</p>
+    <h4>Nachos</h4>
+    <p>Crispy corn chips with melted co-jack cheese, onions and tomatoes. Served with salsa and sour cream. $9.99 <br> Add chicken: $2.50 <br> Add guacamole: $1.50 <br> Add jalapeños: $0.75</p>
+    <h4>Quesadilla</h4>
+    <p>Flour tortilla toasted with Monterey Jack cheese, corn and black bean pico de Gally, served with sour cream and salsa $9.99 <br> Add chicken: $2.50</p>
+    <h4>Vegetable Samosa</h4>
+    <p>Baked pastry stuffed with potatoes and peas, lightly seasoned with spices. Served with a spicy mint chutney sauce. $8.99</p>
+    <h4>Kerry Rings</h4>
+    <p>Deep-fried, beer battered whole onion rings. $9.99</p>
+    <h4>Fish Tacos</h4>
+    <p>Grilled cod layered on top of three flour tortillas with cabbage, avocado, tomato, cilantro and then topped with our baja sauce. $10.99</p>
+</div>
+
+<h3>soups and salads</h3>
+
+<div class="soups">
+    <h4>Potato & Leek Soup</h4>
+    <p>$4.99</p>
+    <h4>Roasted Red Pepper with Smoked Gouda Soup</h4>
+    <p>$4.99</p>
+    <h4>Beer Cheese Soup</h4>
+    <p>$4.99</p>
+    <h4>Chili</h4>
+    <p>A traditional take on your favorite comfort food like you remember as a kid. $5.99 <br> Add cheese and onions: $0.99 </p>
+    <h4>Buffalo Chicken Salad</h4>
+    <p>Grilled chicken, sliced and layered on top of crisp lettuce, shredded co-jack cheese, tomatoes, onion, hard-boiled egg and your choice of dressing. $9.99</p>
+    <h4>Southwestern Chicken Salad</h4>
+    <p>Grilled chicken breast served on a bed of lettuce with tomatoes, red onions, cheddar and Monterey Jack cheese, corn and black bean pico de Gallo. Served with Picante pepper Ranch Dressing. $9.99</p>
+    <h4>Orange Walnut Chicken Salad</h4>
+    <p>Grilled chicken breast layered on a bed of spinach with red onions, walnuts, mandarin oranges and blue cheese crumbles. Served with raspberry dressing. $9.99</p>
+    <h4>Spinach Steak Salad</h4>
+    <p>A flat iron steak cooked to order, sliced and laid on top of a bed of spinach with red onions, tomatoes, roasted red peppers and our house made balsamic vinaigrette on the side. $13.99</p>
+    <p>&nbsp;</p>
+    <img src="steaksalad.JPG" width="300px" align="center">
+    <p>&nbsp;</p>
+    <h4>Wedge Salad</h4>
+    <p>Wedge of crisp lettuce cut and topped with bacon, tomato, red onion, blue cheese and topped with your choice of dressing. $5.99</p>
+</div>
+
+<h3>pub favorites</h3>
+
+<div class="favorites">
+    <p>All sandwiches are served with crisps (home made potato chips). Chips (wedge fries) or coleslaw may be substituted for $1. Fruit is available for $2.</p>
+    <h4>Beer Crisped Fish-n-Chips</h4>
+    <p>Batter fried ocean Haddock with lemon wedge, tartar sauce and malt vinegar. Served with Keegan’s crispy chips (wedge fries). <br> Half (4oz.): $9.49 <br> Full (8oz.): $14.49 </p>
+    <p>&nbsp;</p>
+    <img src="fish_chips.jpg" width="300px" align="center">
+    <p>&nbsp;</p>
+    <h4>St. Patrick's Corned Beef Sandwich</h4>
+    <p>Lean corned beef piled high with Swiss cheese and Dijon mustard served grilled or cold. $12.99 <br> Half Sandwich: $10.99 <br> Add sauerkraut: $2.00 </p>
+    <h4>Steak Sandwichp</h4>
+    <p>A flat iron steak cooked to order, sliced and laid on top of a bed of spinach with melted pepper jack cheese and topped with crisp onion straws served on a toasted ciabatta bun with horseradish sauce. $15.99</p>
+    <p>&nbsp;</p>
+    <img src="steak_sandwich.JPG" width="300px" align="center">
+    <p>&nbsp;</p>
+    <h4>Grilled Cheese</h4>
+    <p>English muffin bread lightly toasted with melted American cheese. Served with Roasted Red Pepper and Smoked Gouda soup. $8.99 <br> Add vegetables: $2.00 </p>
+    <h4>Black Bean Burger</h4>
+    <p>House-made black bean patty grilled then topped with pico de gallo, guacamole, crispy lettuce served with corn chips and salsa. $10.99 <br> Pretzel Bun: $1.00 <br> Udi's Gluten-Free Bun: $1.50</p>
+    <h4>Turkey Chipotle Ranch Panini</h4>
+    <p>Roasted turkey sliced then stacked with onion, tomato, spinach, Swiss cheese then finished with our house-made chipotle ranch sauce toasted between two slices of English muffin bread. $10.99</p>
+    <h4>Buffalo Wrap</h4>
+    <p>Grilled chicken tossed in buffalo sauce then wrapped in a flour tortilla with lettuce, onion and tomato. Served with choice of blue cheese or ranch dressing. $10.99</p>
+    <h4>BLTA Sandwich</h4>
+    <p>Crisp bacon, lettuce, tomato, fresh avocado, layered between two slices of toasted English muffin bread with a light spread of mayo. $10.99</p>
+    <h4>Chicken Pesto Panini</h4>
+    <p>We've topped a seasoned chicken breast with basil-pesto sauce, roasted tomatoes, red onion, gooey fresh mozzarella and finished with a hint of basil, all grilled between two slices of English Muffin bread. $11.99</p>
+    <p>&nbsp;</p>
+    <img src="chicken_pesto_panini.jpg" width="300px" align="center">
+    <p>&nbsp;</p>
+    <h4>Fish Sandwich</h4>
+    <p>Battered and fried Haddock cooked and topped with lettuce, red onion, tomato and melted cheddar cheese on a toasted ciabatta bun. $11.99</p>
+    <h4>Potato & Leek Soup</h4>
+    <p>$4.99</p>
+    <h4>Durango Burger</h4>
+    <p>A 1/3-pound garden burger grilled to order and topped with Monterey Jack Jalapeno cheese, guacamole and a touch of Siracha. Served on a ciabatta bun with mayo, lettuce, tomato and onion $11.99 <br> Pretzel Bun: $1.00 <br> Udi's Gluten-Free Bun: $1.50</p>
+    <p>&nbsp;</p>
+    <img src="durango_burger.jpg" width="300px" align="center">
+    <p>&nbsp;</p>
+    <h4>Nordeast 'Slaw Burger</h4>
+    <p>Fresh beef burger topped with sweet yet tangy coleslaw, Irish chips and sharp cheddar. Served on a ciabatta bun with lettuce, tomato and onion. $11.99 <br> Pretzel Bun: $1.00 <br> Udi's Gluten-Free Bun: $1.50</p>
+    <h4>Danny Boy Burger</h4>
+    <p>Hereford beef grilled to specification and topped with corned beef brisket, Swiss cheese, stone-ground mustard and layered between a toasted brioche bun. $11.99 <br> Pretzel Bun: $1.00 <br> Udi's Gluten-Free Bun: $1.50</p>
+    <h4>All American Hamburger</h4>
+    <p>Hand-blended burger grilled to order and served with lettuce, tomato, red onion on a toasted bun. $8.49 <br> Add bacon & cheese: $2.50 <br> Pretzel Bun: $1.00 <br> Udi's Gluten-Free Bun: $1.50</p>
+    <h4>Bacon, Egg and Cheese Hamburger</h4>
+    <p>Hand-blended burger grilled to order and topped with thick bacon, melted American cheese and topped with an egg. Served on a Brioche bun. $11.99 <br> Pretzel Bun: $1.00 <br> Udi's Gluten-Free Bun: $1.50</p>
+    <h4>BBQ Bacon Burger</h4>
+    <p>Hand-blended burger grilled to order topped with spicy BBQ sauce, melted co-jack cheese and topped with beer battered onion rings. Served on a Pretzel bun. $11.99 <br> Pretzel Bun: $1.00 <br> Udi's Gluten-Free Bun: $1.50</p>
+    <h4>Cajun Chicken Sandwich</h4>
+    <p>Chicken breast dusted with Cajun seasoning, grilled and topped with pico de gallo, melted Swiss cheese, lettuce, and a side of sour cream. $11.99</p>
+    <h4>Black and Blue Burger</h4>
+    <p>Hand blended burger grilled to order topped with lettuce, onion straws and our homemade blue cheese sauce. Served on a Pretzel bun. Served with Crisps. $11.99</p>
+    <h4>Pot Roast Sandwich</h4>
+    <p>Slow roasted beef cooked to a tender perfection and topped with American cheese, banana peppers, onion straws and finished with our homemade horseradish sauce. $12.99</p>
+    <h4>Turkey Chipotle Ranch Panini</h4>
+    <p>Roasted turkey sliced and stacked with onion, tomato, spinach, Swiss cheese then finished with our house-made chipotle ranch sauce toasted between two slices of English muffin bread. $10.99</p>
+</div>
+
+<h3>irish specialties</h3>
+
+<div class="specialties">
+    <h4>Corned Beef Dinner</h4>
+    <p>Tender slices of corned beef topped with mustard-butter sauce. Served with champ (traditional Irish mashed potatoes), fresh steamed cabbage, and Irish soda bread and butter. $13.99</p>
+    <p>&nbsp;</p>
+    <img src="corned_beef_dinner.jpg" width="300px" align="center">
+    <p>&nbsp;</p>
+    <h4>Bangers & Mash</h4>
+    <p>An Irish favorite! Three bangers with gravy on top of a generous portion of champ (traditional Irish mashed potatoes). $10.99</p>
+    <h4>Chicken Pot Pie</h4>
+    <p>Diced chicken, onions, carrots, celery and peas in a garlic sherry sauce and topped with a flaky puffed pastry shell. Served with chips (wedge fries). $11.99</p>
+    <p>&nbsp;</p>
+    <img src="chicken_pot_pie.jpg" width="300px" align="center">
+    <p>&nbsp;</p>
+    <h4>Cod Dinner</h4>
+    <p>North Atlantic cod baked to perfection. Served with vegetable and champ (traditional irish mashed potatoes). $15.99</p>
+    <h4>Shepard's Pie</h4>
+    <p>Carrots, onions, peas, and ground beef seasoned in a beef stock covered with champ (traditional Irish mashed potatoes). Served with Irish soda bread. $13.99</p>
+    <h4>Steak & Guinness Pie</h4>
+    <p>Top sirloin simmered with carrots, mushrooms, onions, celery and a special Guinness sauce. Covered with puff pastry. Served with chips (wedge fries). $12.99</p>
+    <p>&nbsp;</p>
+    <img src="steak_guinness_pie.jpg" width="300px" align="center">
+    <p>&nbsp;</p>
+    <h4>Pot Roast Dinner</h4>
+    <p>Slow roasted beef seasoned and cooked to tender perfection with champ (traditional Irish mashed potatoes) and steamed vegetables. $13.99</p>
+    <h4>Beef Stew</h4>
+    <p>Diced tender grilled steak sautéed with carrots, potatoes and celery. Served with Irish soda bread. $11.49</p>
+</div>
+
+<h3>breakfast</h3>
+
+<div class="breakfast">
+    <h4>Traditional Irish Breakfast (Ulster Fry)</h4>
+    <p>Eggs, bangers, Irish bacon, black pudding, hash browns, tomato, mushroom and toast. $12.99</p>
+    <h4>Corned Beef Hash</h4>
+    <p>Corned beef, bell peppers, onions, mushrooms and hash browns grilled with garlic, herbs and spices. Served with two eggs and toast with jam and butter. $11.99</p>
+    <p>&nbsp;</p>
+    <img src="corned_beef_hash.jpg" width="300px" align="center">
+    <p>&nbsp;</p>
+    <h4>Eggs Benedict</h4>
+    <p>Toasted English muffin with ham, poached eggs and hollandaise sauce. Served with hash browns. $11.99</p>
+    <h4>The Weekender</h4>
+    <p>Big breakfast of toasted caraway rye topped with two sausage patties, two-egg cheese omelet, melted cheese and green onion garnish. Served with hashbrowns. $10.99</p>
+    <h4>McKeegan</h4>
+    <p>Scrambled eggs, melted cheese and ham served on a toasted English muffin. Served with hash browns. $7.99</p>
+    <h4>French Toast</h4>
+    <p>Three slices of English muffin bread batter-dipped in a blend of eggs, cinnamon and vanilla. $7.99</p>
+    <h4>Breakfast Burrito</h4>
+    <p>Flour tortilla stuffed with sausage, hash browns topped with house made red chili sauce and served with a side of black beans. $10.99</p>
+    <h4>American Breakfast</h4>
+    <p>Two eggs with bacon or ham, hash browns, toast and preserves. $6.99</p>
+    <h4>Ham & Cheese Scrambler</h4>
+    <p>Diced ham and shredded co-jack cheese served with hash browns and toast. $8.99 <br> Tomatoes, onions, bacon or olives (price each): $0.25</p>
+    <h4>Breakfast Flatbread</h4>
+    <p>Oven-baked flatbread topped with bacon, scrambled eggs, hash browns, onions and tomato topped with mozzarella. $10.99</p>
+    <h4>Steak and Eggs</h4>
+    <p>Flat iron steak cooked to order served with two eggs, hash browns and toast. $14.99</p>
+</div>
+
+<h3>dessert</h3>
+
+<div class="dessert">
+    <h4>Bread Pudding</h4>
+    <p>$5.99</p>
+    <h4>Guinness Gingerbread</h4>
+    <p>A slice of dark, guinness-infused bundt cake with a caramel sauce on top. $5.99</p>
+    <h4>Chocolate Guinness Cake</h4>
+    <p>$5.99</p>
+    <h4>Cupcake of the Day</h4>
+    <p>Ask your server or bartender for the cupcake of the day. $5.99</p>
+    <h4>Bailey's Cheesecake</h4>
+    <p>$5.99</p>
+    <p>&nbsp;</p>
+</div>
+
+<div class="footer">
+    <p>M-F 11:00 AM - 2:00 AM, Sat-Sun 9:00 AM - 2:00 AM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img src="phone_icon_white.png" width="14px" height="14px" alt="phone icon">
+        (612)-252-0880 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img src="location_icon_white.png" width="19px" height="19px" alt="location icon">
+        16 University Ave NE  Minneapolis, MN 55413</p>
+</div>
+
+</body>
+</html>
